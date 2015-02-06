@@ -36,7 +36,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func updateFibonacciSequence() {
+    @IBAction func
+        
+        updateFibonacciSequence() {
         println(numberOfItemsSlider.value)
         
         if includesZeroSwitch.on {
