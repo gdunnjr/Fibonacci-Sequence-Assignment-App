@@ -13,6 +13,7 @@
 		B86366B01A8549C400340822 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86366AF1A8549C400340822 /* Images.xcassets */; };
 		B86366B31A8549C400340822 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B86366B11A8549C400340822 /* LaunchScreen.xib */; };
 		B86366BF1A8549C400340822 /* FibonacciAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86366BE1A8549C400340822 /* FibonacciAppTests.swift */; };
+		B86366C91A854A8F00340822 /* FibonacciSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86366C81A854A8F00340822 /* FibonacciSequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B86366B81A8549C400340822 /* FibonacciAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibonacciAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86366BD1A8549C400340822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B86366BE1A8549C400340822 /* FibonacciAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciAppTests.swift; sourceTree = "<group>"; };
+		B86366C81A854A8F00340822 /* FibonacciSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FibonacciSequence.swift; path = ../FibonacciSequence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				B86366A81A8549C400340822 /* AppDelegate.swift */,
+				B86366C81A854A8F00340822 /* FibonacciSequence.swift */,
 				B86366AA1A8549C400340822 /* ViewController.swift */,
 				B86366AC1A8549C400340822 /* Main.storyboard */,
 				B86366AF1A8549C400340822 /* Images.xcassets */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B86366AB1A8549C400340822 /* ViewController.swift in Sources */,
+				B86366C91A854A8F00340822 /* FibonacciSequence.swift in Sources */,
 				B86366A91A8549C400340822 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
